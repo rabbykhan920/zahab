@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" data-="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahab</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- google fonts -->
+ <!-- tailwind and daisyui -->
+ <script src="https://cdn.tailwindcss.com"></script>
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+ <!-- tailwind and daisyui -->
+  <!-- font-awsome -->
+  <script src="https://kit.fontawesome.com/2d2b6264bc.js" crossorigin="anonymous"></script>
+  <!-- font-awsome -->
+<style>
+    .font-poppins{
+        font-family: "Poppins", sans-serif;
+    }
+</style>
+</head>
+<body>
+
+<!-- sort by start -->
+ <section class="lg:mt-[60px] md:mb-[40px] mb-[30px]">
+<div class="lg:ml-[50px] md:ml-[30px] ml-[0px]">
+  <h2 class="text-black font-poppins lg:text-4xl md:text-3xl text-2xl font-medium">Shop</h2>
+  <div class="flex items-center gap-4">
+  <a class="text-black font-poppins text-base bg-gray-200 md:px-[10px] md:py-[8px] p-[5px] border border-black mt-5 mb-5 rounded-[8px] cursor-pointer">Clear All</a>
+  <p class="text-black font-poppins md:text-lg text-base ">orderby: price low to high</p>
+</div>
+ 
+</div>
+
+
+<div class="flex md:flex-row flex-col justify-between">
+<div class="flex items-center gap-3 lg:ml-[50px] md:ml-[30px] ml-[0px] mb-5">
+  <i class="fa-brands fa-windows bg-yellow-600 cursor-pointer p-3"></i>
+  <i class="fa-solid fa-file border p-3 cursor-pointer"></i>
+  <p class="text-base font-poppins text-gray-500 leading-[26px]">Showing 1–12 of 24 results</p>
+</div>
+
+
+
+<div class="flex items-center lg:mr-[50px] md:mr-[30px] mr-[0px] gap-[15px] mb-[20px]">
+  <div>
+    <p class="text-gray-600 font-poppins text-base ">Sort by:</p>
+  </div>
+  <div class="border p-[8px]">
+    
+    <select name="" id="">
+      <option value="">sort by price: low to high</option>
+      <option value="">sort by popularity</option>
+<option value="">sort by latest</option>
+<option value=""> by price: high to low</option>
+    </select>
+  </div>
+</div>
+</div>
+</section>
+<!-- sort by end -->
+
+
+
+
+
+
+    <!-- shop start -->
+   <section class="lg:mb-[40px] md:mb-[25px] mb-[10px] lg:mt-[60px] md:mt-[40px] mt-[30px]">
+
+    <div class="grid justify-center lg:gap-[30px] md:gap-5 gap-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 ">
+    <!-- card -->
+      <div class="card relative  group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Simple-Aura-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <i class="fa-solid fa-bag-shopping duration-300"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black hover:text-yellow-500 duration-500 font-normal cursor-pointer md:mb-[15px] mb-[10px]">Simple Aura Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳  </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+        <!-- card -->
+      <div class="card relative  group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Cherry-Musk-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black hover:text-yellow-500 duration-500 font-normal cursor-pointer md:mb-[15px] mb-[10px]">Cherry Musk Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">600.00৳ – 1,190.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+<!-- card -->
+      <div class="card relative  group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Red-TBC-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black hover:text-yellow-500 duration-500 font-normal cursor-pointer md:mb-[15px] mb-[10px]">Red TBC Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳  </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-200 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black duration-500"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Blue-Berry-Musk-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black hover:text-yellow-500 duration-500 font-normal cursor-pointer md:mb-[15px] mb-[10px]">Blue Berry Musk Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳  </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black duration-500"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+<!-- card -->
+      <div class="card relative  group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Comfort-Oud-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Comfort Oud Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer text-lg font-normal text-gray-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Product added!</p>
+              <p class="text-yellow-500 font-poppins text-lg text-center">Browse wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Musk-Royal-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Musk Royal Oil Version</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/BLUE-WHALE-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Blue Whale Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳</p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Fresh-Armani-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Fresh Armani Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Sweet-Mood-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Sweet Mood Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00</p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Dunhil-Amazing-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Dunhil Amazing Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Furious-Rose-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Furious Rose Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+<!-- card -->
+      <div class="card relative group overflow-hidden">
+        <figure class="relative">
+          <img class="w-full rounded-none cursor-pointer"
+            src="./img/Oud-Vanilla-15-300x411.webp"
+            alt="Perfume" />
+          
+          <!-- Hover Button (Full Width, Slides Up) -->
+          <button class="absolute bottom-0 left-0 w-full bg-white hover:bg-[#C59B30] text-[#C59B30] hover:text-white py-3 text-center translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <i class="fa-solid fa-bag-shopping duration-500"></i> Select option
+          </button>
+      
+          <!-- Eye Icon Button (Slides from Right) -->
+          <button class="absolute top-4 right-4 w-10 h-10 bg-white hover:bg-[#C59B30] text-black hover:text-white rounded-full flex items-center justify-center translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </figure>
+      
+        <div class="card-body">
+          <h2 class="md:text-xl text-lg font-poppins text-black font-normal cursor-pointer md:mb-[15px] mb-[10px] hover:text-yellow-500 duration-500">Oud Vnilla Perfume Oil</h2>
+          <p class="text-[#C59B30]font-poppins md:text-xl text-lg font-semibold text-yellow-500 cursor-pointer md:mb-[15px] mb-[10px]">490.00৳  – 990.00৳ </p>
+          <div class="card-actions justify-center">
+            <div class="">
+              <p class="text-center cursor-pointer md:text-xl text-lg font-normal text-black hover:text-yellow-500 duration-500 flex justify-center items-center gap-[15px] font-poppins"><i class="fa-regular fa-heart text-black"></i>Add to wishlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        </div> 
+        </section>
+    
+    <!-- shop end -->
+<!-- icons start -->
+<div class="flex justify-center gap-[24px] items-center lg:mb-[60px] md:mb-[40] mb-[30px]">
+    <p class="text-white font-poppins text-xl font-medium bg-yellow-600 md:py-[10px] py-[8px] md:px-[20px] px-[15px] rounded-[5px] cursor-pointer">1</p>
+    <p class="text-gray-400 hover:bg-yellow-600 hover:text-white font-medium bg-gray-200 font-poppins md:px-[20px] px-[15px] md:py-[10px] py-[8px] text-xl rounded-[5px] cursor-pointer duration-200">2</p>
+    <i class="fa-solid fa-arrow-right text-gray-400 hover:bg-yellow-600 duration-200  hover:text-white bg-gray-200 md:py-[15px] py-[12px] md:px-[18px] px-[14px] rounded-[5px] cursor-pointer"></i>
+</div>
+<!-- icons end -->
+
+<!-- footer start -->
+<footer class="footer bg-black text-base-content p-10">
+    <aside class="lg:block hidden">
+      <p class="text-[#707070] font-poppins text-base font-medium leading-[30px]">
+        2/13, Lift – 6, Block C, <br> Rampura Banasree, Dhaka – 1219.
+      </p>
+      <p class="text-[#707070] font-poppins text-base font-medium leading-[30px] mt-5 mb-5">
+        Email: <span class="text-white text-lg cursor-pointer">contact@zahabperfumes.com</span>
+      </p>
+      <p class="text-[#707070] font-poppins text-base font-medium leading-[30px] mb-[20px]">
+        Call Us 9 AM – 4 PM (Ramadan Time)
+      </p>
+      <h2 class="text-[40px] font-poppins text-white font-semibold">09617-642090</h2>
+    </aside>
+  
+    <nav class="w-full sm:w-auto">
+      <h6 class="text-white font-medium text-xl font-poppins cursor-pointer mb-3 sm:mb-[20px] toggle-heading">Account</h6>
+      <div class="toggle-content hidden sm:block">
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Wishlist</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Compare</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Subscribe</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Login</a>
+      </div>
+    </nav>
+    
+    <nav class="w-full sm:w-auto">
+      <h6 class="text-white font-medium text-xl font-poppins cursor-pointer mb-3 sm:mb-[20px] toggle-heading">Quick Links</h6>
+      <div class="toggle-content hidden sm:block">
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Shipping & Returns</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Privacy Policy</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Terms of Use</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Press kit</a>
+      </div>
+    </nav>
+  
+    <nav class="w-full sm:w-auto">
+      <h6 class="text-white font-medium text-xl font-poppins cursor-pointer mb-3 sm:mb-[20px] toggle-heading">Company</h6>
+      <div class="toggle-content hidden sm:block">
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">About Us</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">FAQs</a>
+      </div>
+    </nav>
+    
+    <nav class="w-full sm:w-auto">
+      <h6 class="text-white font-medium text-xl font-poppins cursor-pointer mb-3 sm:mb-[20px] toggle-heading">Categories</h6>
+      <div class="toggle-content hidden sm:block">
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Best Seller</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Perfume Type</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Sweet Type</a>
+        <a class="block text-[#707070] font-poppins text-base font-medium cursor-pointer hover:text-white duration-200 lg:mb-[15px] md:mb-[10px] mb-[6px]">Traditional Type</a>
+      </div>
+    </nav>
+  </footer>
+  
+  <script>
+    document.querySelectorAll('.toggle-heading').forEach((heading) => {
+      heading.addEventListener('click', () => {
+        const content = heading.nextElementSibling;
+        content.classList.toggle('hidden');
+      });
+    });
+  </script>
+  <!-- footer end -->
+<!-- 2nd footer -->
+ <section class="bg-black flex justify-between md:flex-row flex-col-reverse items-center border py-10">
+ <div class="lg:ml-[30px] md:ml-[20px] ml-[0px]">
+    <p class="text-[#707070] font-poppins md:text-base text-sm font-medium md:leading-[30px]">Copyright © 2025 <span class="text-white font-semibold">Zahab.</span> All Rights Reserved.</p>
+ </div>
+  <div class="flex gap-[24px] lg:mr-[30px] md:mr-[20px] mr-[0px] mb-[20px]">
+    <i class="fa-brands fa-facebook-f text-gray-400 cursor-pointer"></i>
+    <i class="fa-brands fa-twitter text-gray-400 cursor-pointer"></i>
+    <i class="fa-brands fa-youtube text-gray-400 cursor-pointer"></i>
+    <i class="fa-brands fa-intercom text-gray-400 cursor-pointer"></i>
+    <i class="fa-brands fa-google-plus-g text-gray-400 cursor-pointer"></i>
+  </div>
+
+</section>
+<!-- 2nd footer -->
+
+
+</body>
+</html>
